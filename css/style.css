@@ -1,0 +1,28 @@
+:root {
+  --lightgray: #555c6c;
+  --gray: #2c393f;
+  --darkgray: #142020;
+  --beige: #ccccc0;
+  --whitegray: #e7f0f2;
+
+  /*Stroke*/
+  /* 4px solid*/
+  --strkgray: 4px solid #555c6c;
+}
+body {
+  margin: 0;
+  background-color: var(--beige);
+}
+
+.titulo {
+  color: var(--darkgray);
+}
+.container {
+  width: 400px;
+  padding: 10px;
+  background-color: var(--gray);
+}
+
+.texto {
+  color: var(--whitegray);
+}
